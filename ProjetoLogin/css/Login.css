@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../print/Logo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+
+.lnr-eye {
+    position: absolute;
+    left: 80%;
+    cursor: pointer;
+}
+
+.ariaLoginFundo {
+    background: linear-gradient(rgba(99,181,203,0.5), rgba(229,106,44,0.9));
+    background-repeat: no-repeat;
+    position: relative;
+    width: 35%;
+    height: 100%;
+}
+
+.formLogin img {
+    position: relative;
+    width: 27%;
+    left: 3%;
+}
+
+.formLogin {
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    padding-top: 15%;
+    width: 80%;
+    left: 6%;
+}
+
+.lblVersao {
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    left: 35%;
+    font-weight: bold;
+}
+
+.formLogin select {
+    width: 56%;
+}
+
+.formLogin input:hover {
+    border: 2px solid #0846fc;
+}
+
+.btnEntrar {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 200%;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 5%;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 80%;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+}
+
+.btnEntrar:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.btnCancelar {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #b60b0b, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 200%;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 5%;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 80%;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+}
+
+.btnCancelar:hover{
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+
+
